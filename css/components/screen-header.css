@@ -1,3 +1,10 @@
+.screen-header__space {
+  width: 510px;
+  height: 78px;
+  background-color: transparent;
+  position: relative;
+}
+
 .screen-header {
   position: fixed;
   top: 26px;

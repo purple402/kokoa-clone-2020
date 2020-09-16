@@ -1,3 +1,10 @@
+.status-bar__space {
+  width: 510px;
+  height: 26px;
+  background-color: transparent;
+  position: relative;
+}
+
 .status-bar {
   display: flex;
   justify-content: center;
