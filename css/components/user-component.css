@@ -32,8 +32,8 @@
 }
 
 .user-component__avatar-sm {
-  width: 55px;
-  height: 55px;
+  width: 51px;
+  height: 51px;
 }
 
 .user-component__title--not-bold {
@@ -42,4 +42,12 @@
 
 .user-comoponent__column:last-child {
   color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.user-component__time {
+  display: block;
+  margin-bottom: 10px;
 }
