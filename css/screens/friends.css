@@ -4,8 +4,33 @@
   background-color: #fafafa;
   padding: 15px 0px;
   font-size: 17px;
+  margin-bottom: 10px;
 }
 
 #friends-display-link i {
   color: rgba(0, 0, 0, 0.3);
+}
+
+.friends-screen {
+  margin: 0px var(--horizontal-space);
+}
+
+.friends-screen__channel-header i {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.friends-screen__channel {
+  margin-top: 20px;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.friends-screen__channel-header {
+  padding: 18px 0px;
+  display: flex;
+  justify-content: space-between;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.friends-screen__channel .user-component {
+  padding: 5px 0px;
 }
