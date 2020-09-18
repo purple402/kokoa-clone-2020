@@ -1,0 +1,138 @@
+.find-icons {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.find-icons__icon {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  align-items: center;
+  color: var(--gray);
+}
+
+.find-icons__icon span {
+  text-align: center;
+  margin-top: 28px;
+}
+
+.recommended-friends {
+  border-top: var(--main-border);
+  border-bottom: var(--main-border);
+  color: var(--lightgray);
+  height: 300px;
+}
+
+.recommended-friends__title {
+  padding: 25px 0px;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.recommended-friends__text {
+  height: 235px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  box-sizing: border-box;
+  padding-bottom: 30px;
+}
+
+.open-chat__header {
+  display: flex;
+  justify-content: space-between;
+  color: var(--lightgray);
+  padding: 20px 0px 10px 0px;
+}
+
+.open-chat__title {
+  font-weight: 600;
+}
+
+.open-post {
+  /*height: 120px;*/
+  border-bottom: var(--main-border);
+  padding: 10px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.open-post__column {
+  display: flex;
+  flex-direction: column;
+}
+
+.open-post__title {
+  color: var(--gray);
+  font-size: 23px;
+  margin: 5px 0px;
+  font-weight: 600;
+}
+
+.open-post__hashtags {
+  text-transform: uppercase;
+  color: var(--lightgray);
+  font-size: 18px;
+  margin: 3px 0px;
+}
+
+.open-post__members {
+  display: flex;
+  align-items: center;
+  margin: 3px 0px;
+  font-size: 15px;
+}
+
+.open-post__members img {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.open-post__member-count {
+  color: var(--lightgray);
+}
+
+.open-post__members .divider {
+  width: 1px;
+  height: 15px;
+  background-color: var(--lightgray);
+  margin: 0px 7px;
+}
+
+.open-post__member-status {
+  color: #ffb0e0;
+}
+
+.open-post__photo {
+  position: relative;
+}
+
+.open-post__photo img {
+  height: 120px;
+  width: 120px;
+  border-radius: 15px;
+}
+
+.open-post__heart-count {
+  background-color: rgba(0, 0, 0, 1);
+  color: white;
+  opacity: 0.7;
+  padding: 10px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  font-size: 15px;
+}
+
+.open-post__heart-count span {
+  margin-left: 4px;
+}
