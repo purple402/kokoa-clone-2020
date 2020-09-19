@@ -2,3 +2,62 @@
   color: tomato;
   margin-left: 5px;
 }
+
+.more-screen .icon-row {
+  margin-top: 15px;
+}
+
+.more-screen .icon-row .icon-row__icon {
+  margin-bottom: 50px;
+}
+
+.suggestions {
+  position: relative;
+  top: -45px;
+  border-top: var(--main-border);
+}
+
+.suggestions__title {
+  padding: 20px 0px;
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.suggestions__icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.suggestions__icon {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.suggestions__icon img {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.suggestions__icon-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color: var(--yellow);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.suggestions__icon-image i {
+  color: white;
+  font-size: 25px;
+}
+
+.suggestions__icon span {
+  color: var(--gray);
+}
