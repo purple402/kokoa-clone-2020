@@ -116,23 +116,3 @@
 .open-post__heart-count span {
   margin-left: 4px;
 }
-
-@keyframes heartBeat {
-  0% {
-    trnasform: none;
-    color: white;
-  }
-  50% {
-    transform: scale(1.3);
-    color: tomato;
-  }
-  100% {
-    transform: none;
-    color: white;
-  }
-}
-
-.open-post__photo:hover .fa-heart {
-  will-change: transform;
-  animation: heartBeat 1s ease-in-out infinite;
-}
